@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+i,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+.women-heading h3 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 800;
+    margin: 50px 0px 50px 0px;
+
+ 
+}
+.product-area .product-box{
+    margin-bottom: 50px;
+    border-radius: 5px;
+    min-height: 400px;
+ 
+}
+.product-area .card-img img{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+.product-area .card-body{
+     border-radius: 5px;
+    border-left: 1px solid rgb(122, 108, 108);
+    border-right: 1px solid rgb(122, 108, 108);;
+}
+
+.product-area h4 {
+    font-weight: 700;
+    font-family: 'Poppins';
+
+    padding: 10px 0px 10px 6px;
+}
+.product-area p{
+    font-size: 17px;
+    font-family: 'Roboto';
+    padding: 0px 0px 10px 6px;
+    color: gray;
+}
+.product-area  h5 {
+    font-size: 18px;
+    font-family: 'sans,serif';
+    font-weight: 600;
+    color: rgb(46, 14, 14);
+    padding: 4px 0px 12px 6px;
+}
+button.atttocart-btn {
+    width: 100%;
+    border: 1px solid rgb(110, 107, 105);
+    background: transparent;
+    border-radius: 3px;
+    color: #212424;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: inherit,sans-serif;
+}
+button.atttocart-btn:hover{
+    background-color:   rgb(50, 48, 48);
+    color: white;
+}
+
+
+
+
+@media (max-width:1200px) {
+    .women-heading h3 {
+        font-size: 32px;
+        text-align: center;
+        font-weight: 800;
+        margin: 10px 0px 40px 0px;
+    }
+    .product-area .product-box {
+        margin-bottom: 35px;
+        border-radius: 5px;
+        min-height: 350px;
+    }
+    
+}
+
+@media (max-width:768px) {
+    .women-heading h3 {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 800;
+        margin: 10px 0px 40px 0px;
+    }
+    .product-area .product-box {
+        margin-bottom: 25px;
+        border-radius: 5px;
+        min-height: 300px;
+    }
+    
+}

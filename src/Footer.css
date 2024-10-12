@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+i,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-area {
+    background-color: #f9f9f9;
+    margin: 100px 0px 100px 0;
+}
+
+.footer-box {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-area .footer-heading h1 {
+    font-size: 35px;
+    padding: 14px 0px;
+}
+
+.footer-area .footer-heading p {
+    color: grey;
+}
+
+#footer-input {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 100px 10px 10px;
+}
+
+#footer-btn {
+    box-shadow: none;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    padding: 11px 25px;
+    text-transform: capitalize;
+}
+
+.footer-mail-box {
+  
+    display: flex;
+    justify-content: end;
+    margin-top: 17px;
+}
+
+.services {
+    padding: 50px 0px;
+    background-color: rgb(237 237 237);
+
+}
+
+.services-area {
+    margin-top: 50px;
+    padding: 0 60px;
+    text-align: center;
+}
+
+.services-area h5 {
+    margin-bottom: 20px;
+    color: #263636;
+    font-size: 21px;
+    font-weight: 600;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.services-area .footer-icon {
+    margin-right: 10px;
+}
+
+.services-area ul li {
+    list-style: none;
+    text-align: justify;
+}
+
+.services-area li {
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.services-area ul li {
+    color: #4a3b3b;
+
+}
+
+.services-area ul li a {
+    color: #4a3b3b;
+    text-decoration: none;
+}
+
+.footer-last {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-last p {
+    color: #4a3b3b;
+    margin-top: 20px;
+    font-family: fantasy;
+}
+
+@media (max-width:1200px) {
+    .footer-area .footer-heading h1 {
+        font-size: 33px;
+        padding: 14px 0px;
+    }
+    .footer-mail-box {
+        margin-left: 45px;
+    }
+    .services-area h5 {
+        margin-bottom: 15px;
+        color: #263636;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+    .service-box {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:992px) {
+    .footer-area {
+        background-color: #f9f9f9;
+        margin: 80px 0px 80px 0px;
+    }
+    .footer-mail-box {
+        margin-left: 0px;
+    }
+    .footer-area .footer-heading h1 {
+        font-size: 26px;
+        padding: 14px 0px;
+    }
+    #footer-input {
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding: 10px 60px 10px 10px;
+    }
+    #footer-btn {
+        box-shadow: none;
+        font-size: 11px;
+        margin-left: 10px;
+        margin-bottom: 2px;
+        padding: 13px 9px;
+        text-transform: capitalize;
+    }
+    .service-box {
+        margin-bottom: 30px;
+    }
+    .services-area h5 {
+        margin-bottom: 10px;
+        color: #263636;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+}
+
+@media (max-width:768px) {
+    .footer-area {
+        background-color: #f9f9f9;
+        margin: 60px 0px 60px 10px;
+    }
+    .footer-heading {
+        text-align: center;
+    }
+    .services {
+        padding: 1px 0px;
+    }
+    .service-box {
+        margin-bottom: 30px;
+    }
+    .footer-mail-box {
+        margin-left: 0px;
+        justify-content: center;
+        margin: 40px 0px 20px 0px;
+    }
+    .services-area h5 {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:768px) {
+    .person-area .person-btn {
+        padding: 10px 5px;
+        text-align: center;
+        background-color: #061416;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        box-shadow: 0px 0px 11px 6px red;
+    }
+    .container.bbv {
+        max-width: 735px;
+    }
+    .footer-area {
+        background-color: #f9f9f9;
+        margin: 40px 0px 60px 10px;
+    }
+    #footer-input {
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding: 10px 35px 10px 10px;
+    }
+    .footer-area {
+        background-color: #f9f9f9;
+        margin: 40px 0px 30px 10px;
+    }
+    .footer-last p {
+        color: #4a3b3b;
+        margin-top: -50px;
+        font-family: fantasy;
+    }
+}

@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+i,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+.mens-heading h3 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 800;
+    margin: 50px 0px 50px 0px;
+}
+.product-area .product-box{
+    margin-bottom: 50px;
+    border-radius: 5px;
+    min-height: 400px;
+ 
+}
+.product-area .card-img img{
+    width: 100%;
+
+}
+.product-area .card-body{
+    border-radius: 5px;
+    border-left: 1px solid rgb(122, 108, 108);
+    border-right: 1px solid rgb(122, 108, 108);;
+}
+
+.product-area h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 15px;
+    /* font-family: cursive; */
+    padding: 10px 0px 10px 6px;
+}
+.product-area p {
+    font-size: 17px;
+    font-family: 'Roboto';
+    padding: 0px 0px 10px 6px;
+    color: #333232;
+}
+.product-area  h5 {
+    font-size: 18px;
+    font-family: 'sans,serif';
+    font-weight: 600;
+    color: rgb(43 44 44);
+    padding: 4px 0px 12px 6px;
+}
+button.atttocart-btn {
+    width: 100%;
+    border: 1px solid rgb(110, 107, 105);
+    background: transparent;
+    border-radius: 3px;
+    color: #212424;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: inherit,sans-serif;
+}
+button.atttocart-btn:hover{
+    background-color:rgb(50, 48, 48);
+    color: white;
+}
+
+
+@media (max-width:1200px) {
+    .mens-heading h3 {
+        font-size: 32px;
+        text-align: center;
+        font-weight: 800;
+        margin: 25px 0px 40px 0px;
+    }
+    .product-area .product-box {
+        margin-bottom: 35px;
+        border-radius: 5px;
+        min-height: 350px;
+    }
+    
+}
+
+@media (max-width:992px) {
+    .mens-heading h3 {
+        font-size: 32px;
+        text-align: center;
+        font-weight: 800;
+        margin: 35px 0px 40px 0px;
+    }
+    .product-area .product-box {
+        margin-bottom: 30px;
+        border-radius: 5px;
+        min-height: 350px;
+    }
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-right: 15%;
+        margin-bottom: 4rem;
+        margin-left: 15%;
+    }
+    
+}
+@media (max-width:850px) {
+ 
+    .product-area .product-box {
+        margin-bottom: 30px;
+        border-radius: 5px;
+        min-height: 350px;
+    }
+    
+}
+@media (max-width:800px) {
+ 
+    .product-area .product-box {
+        margin-bottom: -30px;
+        border-radius: 5px;
+        min-height: 400px;
+    }
+    
+}
+@media (max-width:768px) {
+    .mens-heading h3 {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 800;
+        margin: 20px 0px 40px 0px;
+    }
+    .product-area .product-box {
+        margin-bottom: 25px;
+        border-radius: 5px;
+        min-height: 300px;
+    }
+    .container.bbv {
+        max-width: 735px;
+    }
+    
+    
+}
+@media (max-width:576px) {
+    .mens-heading h3 {
+        font-size: 28px;
+        text-align: center;
+        font-weight: 800;
+        margin: 35px 0px 35px 0px;
+    }
+    
+    
+}

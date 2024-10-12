@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+i,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-area {
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px grey;
+    z-index: 2;
+}
+
+.navbar-area img {
+    height: 60px;
+    width: 170px;
+
+}
+
+.navbar-area #navbarScroll {
+
+    justify-content: space-around;
+    margin: 0px 0px;
+}
+
+.navbar-dark .navbar-toggler,
+.navbar-light .navbar-toggler {
+    border: 0;
+    background: radial-gradient(black, transparent);
+}
+
+.navbar-area .bg-body-tertiary {
+    padding: 10px 50px;
+}
+
+#action1 {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+#action2 {
+    padding: 0px 30px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 30px;
+}
+
+a.nav-link {
+    color: rgb(81, 73, 73);
+    font-size: 21px;
+    font-weight: 500;
+
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.navbar-area a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-area a:hover {
+    padding-left: 20px;
+    text-decoration: none;
+    color: rgba(80, 79, 79, 0.941);
+}
+
+.navbar-area i {
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-color: #2d2d2d;
+    background-color: #2d2d2d;
+    letter-spacing: 1px;
+    padding: 13px 15px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+sup {
+
+    vertical-align: initial;
+    position: relative;
+}
+.button-cart {
+    display: flex;
+}
+
+
+@media (max-width:390px) {
+    nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light {
+        display: contents;
+    }
+
+}
